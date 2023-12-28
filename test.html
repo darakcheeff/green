@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="custgreen.js"></script>
+        <title>GreenAPI demonstration</title>
+    </head>
+    <body>
+        <h1></h1>
+        <div class="row">
+            <div class="mb-2" style="width: 30%;">
+                <div class="card-body">
+                    <div class="form-group">
+                        <input type="text" class="form-control"  id="idInstance" placeholder="idInstance">
+                        <input type="text" class="form-control" id="ApiTikenInstance"  placeholder="ApiTkenInstance">
+                        <p></p>
+                        <button type="button" id="getSettings" class="btn btn-success">getSettings</button>
+                        <p></p>
+                        <button type="button" id="getStateInstance" class="btn btn-primary">getStateInstance</button>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="phoneNumber1" placeholder="77771234567">
+                        <textarea class="form-control" id="messageTextarea" placeholder="Hellow world!" rows="4"></textarea>
+                        <p></p>
+                        <button type="button" id="sendMessage" class="btn btn-primary">sendMessage</button>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="phoneNumber2" placeholder="77771234567">
+                        <input type="text" class="form-control" id="fileUrl" placeholder="https://my.site.com/img/horse.png">
+                        <p></p>
+                        <button type="button" id="sendFile" class="btn btn-primary">sendFileByUrl</button>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 50%;">
+                <label for="responseTextarea">Ответ:</label>
+                <textarea class="form-control" readonly id="responseTextarea" rows="20"></textarea>
+                <div></div>
+            </div>
+        </div>
+</div>
+
